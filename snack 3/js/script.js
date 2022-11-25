@@ -10,10 +10,17 @@
 
   let average = 0;
 
+  let max = 0;
+
   for (let i = 0; i < 10; i++) {
     
     sum =+ lista[1];
     average = sum / 10;
+    
+    if ( lista[i] > max) {
+      max = lista[i];
+  }
+
 
     
 }
@@ -21,3 +28,4 @@
 
 console.log(sum);
 console.log(average);
+console.log(max);
