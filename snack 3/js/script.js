@@ -11,7 +11,12 @@
   for (let i = 0; i < 10; i++) {
     
     sum =+ lista[i];
-    console.log(sum);
+    sum =+ (lista / lista[1]);
+    
+
+    
 }
 
+console.log(sum);
+console.log(sum);
 
