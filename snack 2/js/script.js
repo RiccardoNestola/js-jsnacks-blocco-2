@@ -7,10 +7,10 @@
   let form =  parseInt( prompt("Inserisci un numero"));
 
   if (form % 2 == 0 ) {
-    console.log(contenitore);
+    console.log(form);
     
   } else {
 
-    console.log(contenitore + 1)
+    console.log(form + 1)
   }
 
