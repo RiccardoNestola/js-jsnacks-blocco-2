@@ -6,14 +6,14 @@
  *
  */
 
- const names = ['Michela', 'Giuseppina', 'Taylor','Donna', 'Marsha', 'Fabio', 'Roberto'];
- const lastnames = ['Cappelletti', 'Jager', 'Porcinelli' , 'Buffetti' , 'Forghieri', 'Papagni', 'Marazzini'];
+const names = ['Michela', 'Giuseppina', 'Taylor','Donna', 'Marsha', 'Fabio', 'Roberto'];
+const lastnames = ['Cappelletti', 'Jager', 'Porcinelli' , 'Buffetti' , 'Forghieri', 'Papagni', 'Marazzini'];
 
 let randomNames = [];
 
 for (let i = 0 ; i < 10; i++){
 
-  randomNames = names + lastnames [Math.floor(Math.random() * 10)];
+  randomNames = names [Math.floor(Math.random() * 7)] + lastnames [Math.floor(Math.random() * 7)];
 
   console.log(randomNames);
 }
