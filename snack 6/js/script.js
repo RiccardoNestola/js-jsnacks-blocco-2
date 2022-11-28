@@ -13,8 +13,8 @@ for (let index = 0; index < contenitore.length; index++) {
 
   
 
-  if (contenitore[index] % 2 == 1 ) {
-    sum += contenitore[index]
+  if (index % 2 === 1 ) {
+    sum += contenitore[index]; 
     
   }
   
